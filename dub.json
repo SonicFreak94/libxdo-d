@@ -1,6 +1,6 @@
 {
 	"name": "libxdo-d",
-	"targetName": "libxdo-d.a",
+	"targetName": "xdo-d",
 	"authors": [
 		"Michael Fadely"
 	],
@@ -22,7 +22,7 @@
 		},
 		{
 			"name": "test",
-			"targetName": "xdo-d.out",
+			"targetName": "xdo-d",
 			"targetType": "executable",
 			"versions": [
 				"executable"
