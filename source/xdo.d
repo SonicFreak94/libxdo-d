@@ -200,7 +200,7 @@ alias xdo_search_t = xdo_search;
 enum XDO_ERROR = 1;
 enum XDO_SUCCESS = 0;
 
-extern (C):
+extern (C) nothrow @nogc:
 
 /**
  * Create a new xdo_t instance.
